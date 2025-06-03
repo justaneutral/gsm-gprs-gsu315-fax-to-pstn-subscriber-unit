@@ -1,0 +1,9 @@
+-----------------------------  gsu.pjt - Release  -----------------------------
+"c:\ti212\c5400\cgtools\bin\cl500" -@"Release.lkf"
+<Linking>
+TMS320C54x COFF Linker            Version 3.70
+Copyright (c) 1996-2001           Texas Instruments Incorporated
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

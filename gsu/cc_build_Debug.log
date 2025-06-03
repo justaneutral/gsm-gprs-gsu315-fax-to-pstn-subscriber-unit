@@ -1,0 +1,145 @@
+------------------------------  gsu.pjt - Debug  ------------------------------
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "at_processor.c"
+[at_processor.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "at_task.c"
+[at_task.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "bsp.c"
+[bsp.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "callcontrol.c"
+[callcontrol.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "caller_id.c"
+[caller_id.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "clock.asm"
+<clock.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "common.asm"
+<common.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "crc.c"
+[crc.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "dce_task.c"
+[dce_task.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "debounce.c"
+[debounce.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "debug.c"
+[debug.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "delayedmsgs.c"
+[delayedmsgs.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "duart_ti16c752.c"
+[duart_ti16c752.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "echo.asm"
+<echo.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "filter.asm"
+<filter.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "flash.c"
+[flash.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "flash_interface.c"
+[flash_interface.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "fm_task.c"
+[fm_task.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "fr_frame.c"
+[fr_frame.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "fr_state_machine.c"
+[fr_state_machine.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "fsk.asm"
+<fsk.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "gendet.asm"
+<gendet.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "hdlc_framer.c"
+[hdlc_framer.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "init.asm"
+<init.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "led.c"
+[led.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "main.c"
+[main.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "memory.asm"
+<memory.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "queue.c"
+[queue.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "raw_framer.c"
+[raw_framer.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "relocate.asm"
+<relocate.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "relocate_vxx.asm"
+<relocate_vxx.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "rxtx.asm"
+<rxtx.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "slac.c"
+[slac.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "tcm.asm"
+<tcm.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "timer.c"
+[timer.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v14_framer.c"
+[v14_framer.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v21.asm"
+<v21.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v22.asm"
+<v22.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v27.asm"
+<v27.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v29.asm"
+<v29.asm>
+"v29.asm", WARNING! at EOF: [W9999] First instruction following XC must be a
+                                    1-word instruction
+"v29.asm", WARNING! at EOF: [W9999] First instruction following XC must be a
+                                    1-word instruction
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v32.asm"
+<v32.asm>
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "v32_modem.c"
+[v32_modem.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "version.c"
+[version.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr"./Debug/" -i"c:/ti/c5400/cgtools/include" -i"c:/ti/c5400/dsk5402/include" -i"../gsu" -i".." -d"_PAYPHONE_" -d"_UART_B_DSR_" -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549 -@"Debug.lkf" "vxx_modem.c"
+[vxx_modem.c]
+
+"c:\ti212\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+<Linking>
+TMS320C54x COFF Linker            Version 3.70
+Copyright (c) 1996-2001           Texas Instruments Incorporated
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 3 Warnings, 0 Remarks.

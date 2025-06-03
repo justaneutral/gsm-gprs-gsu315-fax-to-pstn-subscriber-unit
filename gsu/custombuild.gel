@@ -1,0 +1,34 @@
+/* GEL function to create S-record file for FLASH download*/
+
+menuitem "Custom Build";
+hotmenu CreateSRecord_Debug()
+{
+	GEL_TextOut("Converting COFF -> Motorola S-Record\n", "System Output", 1);
+	GEL_System("c:\\ti\\c5400\\cgtools\\bin\\hex500 debug\\gsu.out -m -romwidth 16 -o debug\\gsu.m00");
+	GEL_TextOut("Ready for FLASH download\n", "System Output", 1);
+	
+}
+
+hotmenu CreateSRecord_Release()
+{
+	GEL_TextOut("Converting COFF -> Motorola S-Record\n", "System Output", 1);
+	GEL_System("c:\\ti\\c5400\\cgtools\\bin\\hex500 release\\gsu.out -m -romwidth 16 -o release\\gsu.m00");
+	GEL_TextOut("Ready for FLASH download\n", "System Output", 1);
+	
+}
+
+hotmenu DebugConfig()
+{
+	GEL_TextOut("Linker Command File gsu.cmd is replaced by debug version\n");
+	GEL_System("attrib -r gsu.cmd");
+	GEL_System("copy gsu_debug.cmd gsu.cmd");
+
+}
+
+hotmenu ReleaseConfig()
+{
+	GEL_TextOut("Linker Command File gsu.cmd  is replaced by release version\n");
+	GEL_System("attrib -r gsu.cmd");
+	GEL_System("copy gsu_release.cmd gsu.cmd");
+
+}

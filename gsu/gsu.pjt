@@ -1,0 +1,89 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="gsu"
+ProjectDir="U:\WSU_TEST\Modules\gsu\"
+ProjectType=Executable
+CPUFamily=TMS320C54XX
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Debug_Lab"
+Config="Release"
+
+[Source Files]
+Source="at_processor.c"
+Source="at_task.c"
+Source="bsp.c"
+Source="C:\ti\c5400\cgtools\lib\rts_ext.lib"
+Source="callcontrol.c"
+Source="caller_id.c"
+Source="clock.asm"
+Source="common.asm"
+Source="crc.c"
+Source="dce_task.c"
+Source="debounce.c"
+Source="debug.c"
+Source="delayedmsgs.c"
+Source="duart_ti16c752.c"
+Source="echo.asm"
+Source="filter.asm"
+Source="flash.c"
+Source="flash_interface.c"
+Source="fm_task.c"
+Source="fr_frame.c"
+Source="fr_state_machine.c"
+Source="fsk.asm"
+Source="gendet.asm"
+Source="hdlc_framer.c"
+Source="init.asm"
+Source="led.c"
+Source="main.c"
+Source="memory.asm"
+Source="queue.c"
+Source="raw_framer.c"
+Source="relocate.asm"
+Source="relocate_vxx.asm"
+Source="rxtx.asm"
+Source="slac.c"
+Source="tcm.asm"
+Source="timer.c"
+Source="v14_framer.c"
+Source="v21.asm"
+Source="v22.asm"
+Source="v27.asm"
+Source="v29.asm"
+Source="v32.asm"
+Source="v32_modem.c"
+Source="version.c"
+Source="vxx_modem.c"
+Source="gsu.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr".\Debug\" -i"c:\ti\c5400\cgtools\include" -i"c:\ti\c5400\dsk5402\include" -i"..\gsu" -i".." -d"_SRAM_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549
+
+["Compiler" Settings: "Debug_Lab"]
+Options=-g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr".\Debug_Lab\" -i"d:\ti\c5400\cgtools\include" -i"d:\ti\c5400\dsk5402\include" -i"..\gsu" -i".." -d"_NO_FLASH_" -d"_NO_WATCHDOG_" -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549
+
+["Compiler" Settings: "Release"]
+Options=-g -q -adWSU_FAX_DATA -adSHOW_GLOBAL -adOVERLAY_MODE=0 -adON_CHIP_COEFFICIENTS=1 -adFARC_MODE -al -fr".\Release\" -i"c:\ti\c5400\cgtools\include" -i"c:\ti\c5400\dsk5402\include" -i"..\gsu" -i".." -d"_FAR_MODE_" -d"__DEBUG__" -d"_MODEMS_" -d"DUMP_LEN=0" -d"_FARC_MODE" -d"_TI_DSP" -mf -v549
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v54
+
+["DspBiosBuilder" Settings: "Debug_Lab"]
+Options=-v54
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v54
+
+["Linker" Settings: "Debug"]
+Options=-c -erelocate -heap0 -m".\Debug\gsu.map" -o".\Debug\gsu.out" -stack0x480 -x
+
+["Linker" Settings: "Debug_Lab"]
+Options=-c -erelocate -heap0 -m".\Debug_Lab\gsu.map" -o".\Debug_Lab\gsu.out" -stack0x480 -x
+
+["Linker" Settings: "Release"]
+Options=-c -erelocate -heap0 -m".\Release\gsu.map" -o".\Release\gsu.out" -stack0x480 -x
+
